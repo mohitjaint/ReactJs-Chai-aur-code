@@ -1,8 +1,14 @@
+import Hello from "./Hello"
 
 function App() {
 
   return (
-    <h1>Hello World !</h1>
+    <>
+      <Hello />
+      <h1>Welcome to React</h1>
+      <p>This is a simple React application.</p>
+    </>
+    
   )
 }
 
